@@ -56,9 +56,9 @@ def run_etl():
     print("2. Transformando y evaluando reglas de riesgo...")
     engine = create_engine(DB_URI)
     
-    # Selección de un lote inicial de 30 registros para el procesamiento
-    df_clean = df_raw.head(30).copy()
-    
+    # Selección de un lote inicial de 500 registros para el procesamiento
+    df_clean = df_raw.head(500).copy()
+
     # Conversión segura a formato numérico para evitar errores operacionales
     numeric_values = pd.to_numeric(df_clean['Value'], errors='coerce').fillna(1000000)
     

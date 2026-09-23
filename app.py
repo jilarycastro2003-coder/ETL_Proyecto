@@ -35,8 +35,7 @@ st.title("🛡️ Sistema de Monitoreo de Riesgo y Detección de Fraude")
 st.caption("Plataforma interactiva conectada a Supabase (PostgreSQL)")
 
 # Cadena de conexión JDBC/SQLAlchemy usando el controlador psycopg2
-DB_URI = "postgresql+psycopg2://postgres:Jilary2318.@db.hdavydolxksxctzvkedv.supabase.co:5432/postgres"
-
+DB_URI = "postgresql+psycopg2://postgres.hdavydolxksxctzvkedv:Jilary2318.@aws-0-ca-central-1.pooler.supabase.com:6543/postgres"
 # -----------------------------------------------------------------------------
 # EXTRACCIÓN Y CACHÉ DE DATOS
 # -----------------------------------------------------------------------------

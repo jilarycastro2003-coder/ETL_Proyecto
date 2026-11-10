@@ -1,6 +1,0 @@
-requests
-pandas
-sqlalchemy
-psycopg2-binary
-streamlit
-streamlit-autorefresh
